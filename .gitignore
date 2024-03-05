@@ -1,2 +1,4 @@
 # ignore virtual environment
 venv/
+history.csv
+no background.png
