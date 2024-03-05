@@ -1,2 +1,2 @@
 # Sunny-ChurnCo
-Data App Project - Embedding Machine Learning Models in GUIs
+A Data App Project using Streamlit - Embedding Machine Learning Models in GUIs
