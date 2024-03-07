@@ -2,3 +2,9 @@
 venv/
 history.csv
 no background.png
+
+# ignore python cache
+__pycache__/
+
+# ignnore credential file
+.env
