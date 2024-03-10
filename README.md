@@ -19,18 +19,19 @@ The ChurnCo is an interactive Streamlit application designed to forecast custome
 5. [🤖Models Used](#models-used)
 6. [🚀Deployment](#deployment)
 7. [Further Development](#further-development)
-8. [🤝Contributing](#contributing)
-9. [👩‍💻Author](#author)
-10. [🏅License](#license)
+8. 📄[Documentation](#Documentation)
+9. [🤝Contributing](#contributing)
+10. [👩‍💻Author](#author)
+11. [🏅License](#license)
  
-### Setup <a name="setup"></a>
+### ⚙️Setup <a name="setup"></a>
  
 1. **Clone Repository**: Clone the repository containing the Streamlit app code.
 2. **Install Dependencies**: Install the required dependencies using pip.
-3. **Data Setup**: Ensure you have a CSV dataset named `Churn Prediction Dataset.csv` placed inside a folder named `dataset` in the project directory.
+3. **Data Setup**: Ensure you have a CSV dataset named `Churn Prediction Dataset.csv` placed inside a folder named `data` in the project directory.
 4. **Configuration**: Update the `.env` file with necessary credentials and configuration details.
  
-### Setup <a name="setup"></a>
+### 🧱Prerequisites <a name="prerequisites"></a>
 
 To be able to set-up and run this app, you would need:
 - [git](https://git-scm.com/downloads) for cloning of source code onto your device.
@@ -48,29 +49,29 @@ The app will then be accessible through a web browser on your local machine.
  
 ### Usage <a name="usage"></a>
  
-#### Home Page <a name="home-page"></a>
+#### 🏡Home Page <a name="home-page"></a>
 - Provides an overview of the app and its purpose after a successful log in.
  
-#### Data Page <a name="data-page"></a>
+#### 🔢Data Page <a name="data-page"></a>
 - Allows for selecting a source of data (either from in-built data or an uploaded csv of similar structure to in-built data)
 - Provides Preview of the first few rows of the dataset.
 - Shows summary info on structure of data.
 - Displays basic information about the dataset.
 
-#### Dashboard Page <a name="dashboard-page"></a>
+#### 📊Dashboard Page <a name="dashboard-page"></a>
 - Offers insights through various charts and plots.
 - Provides visualizations on the various features in the customer churn data.
 - Summary visuals of research questions and key performance indicators.
 
  
-#### Predictor Page <a name="predictor-page"></a>
+#### 🎰Predictor Page <a name="predictor-page"></a>
 - Allows input customer details interactively to predict churn.
  
-#### History Page <a name="history-page"></a>
+#### ⌛History Page <a name="history-page"></a>
 - Tracks user interactions with the app.
 - Displays a history log of actions performed by the user.
  
-### Models Used <a name="models-used"></a>
+### 🤖Models Used <a name="models-used"></a>
  
 #### Supported Models
 1. Logistic Regression Model
@@ -81,7 +82,7 @@ The app will then be accessible through a web browser on your local machine.
 - SGD: Optimization algorithm for training logistic regression models
 
  
-### Deployment <a name="deployment"></a>
+### 🚀Deployment <a name="deployment"></a>
  
 - Model Serialization
 - Model Loading
@@ -91,19 +92,22 @@ The app will then be accessible through a web browser on your local machine.
 - Model Tuning
 - Model Expansion
 - Model Monitoring
+
+### 📄Documentation <a name="documentation"></a>
+ Medium:
  
-### Contributing <a name="contributing"></a>
+### 🤝Contributing <a name="contributing"></a>
  
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or create a pull request.
 
-### Author <a name="author"></a>
+### 👩‍💻Author <a name="author"></a>
 Coder Michelle Pamela
 - GitHub: [Elle-shika](https://github.com/elle-shika)
 - LinkedIn: [michelle-pamela](www.linkedin.com/in/michelle-pamela)
  
-### License <a name="license"></a>
+### 🏅License <a name="license"></a>
  
-This project is licensed under the [Apache 2.0](LICENSE). Feel free to use, modify, and distribute the code for personal and commercial purposes.
+This project is licensed under the [MIT license](LICENSE). Feel free to use, modify, and distribute the code for personal and commercial purposes.
 
 
 
