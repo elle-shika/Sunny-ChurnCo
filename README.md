@@ -94,7 +94,7 @@ The app will then be accessible through a web browser on your local machine.
 - Model Monitoring
 
 ### 📄Documentation <a name="documentation"></a>
- Medium:
+ Medium Article: [Predicting Customer Churn With Machine Learning: A streamlit Web App](https://medium.com/@pamelakushika/predicting-customer-churn-with-machine-learning-a-streamlit-web-app-aaa92ec8b1b6)
  
 ### 🤝Contributing <a name="contributing"></a>
  
