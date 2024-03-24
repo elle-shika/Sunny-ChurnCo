@@ -28,7 +28,7 @@ The ChurnCo is an interactive Streamlit application designed to forecast custome
  
 1. **Clone Repository**: Clone the repository containing the Streamlit app code.
 2. **Install Dependencies**: Install the required dependencies using pip.
-3. **Data Setup**: Ensure you have a CSV dataset named `Churn Prediction Dataset.csv` placed inside a folder named `data` in the project directory.
+3. **Data Setup**: Ensure you have a CSV dataset named `Churn Prediction Dataset.csv` placed inside a folder named `assets` in the project directory.
 4. **Configuration**: Update the `.env` file with necessary credentials and configuration details.
  
 ### 🧱Prerequisites <a name="prerequisites"></a>
