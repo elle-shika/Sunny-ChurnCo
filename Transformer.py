@@ -5,13 +5,13 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 class LogTransformer():
     def __init__(self, constant=1e-5):
-        self.constants = constant
+        self.constant = constant
 
     def fit(self, x, y = None):
         return self
     
     def transform(self, x):
-        return np.log1p(x + self.constants)
+        return np.log1p(x + self.constant)
     
 
 class FeatureSelector(BaseEstimator, TransformerMixin):

@@ -11,7 +11,7 @@ st.set_page_config(
 
 
 # Function to save predictions to a CSV file
-def save_to_csv(prediction):
+def save_to_csv(make_predictions):
     # Check if the CSV file exists, if not create it with headers
     try:
         history_df = pd.read_csv('history.csv') #read history.csv if it exists
@@ -19,7 +19,7 @@ def save_to_csv(prediction):
         history_df = pd.DataFrame(columns=['PredictedOutcome'])
  
     # Create a new DataFrame with the new prediction
-    prediction_df = pd.DataFrame({'PredictedOutcome': [prediction]})
+    prediction_df = pd.DataFrame({'PredictedOutcome': [make_predictions]})
  
     # Concatenate the existing DataFrame with the new DataFrame
     history_df = pd.concat([history_df, prediction_df], axis = 0, ignore_index=True )
@@ -42,7 +42,7 @@ def show_history():
  
  
 if __name__ == "__main__":
-    prediction = 1  
-    save_to_csv(prediction)
+    make_predictions = 1  
+    save_to_csv(make_predictions)
     show_history()
  

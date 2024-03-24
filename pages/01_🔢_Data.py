@@ -82,7 +82,7 @@ def get_data():
         with st.spinner("Dataset loading..."):
             time.sleep(3)
         st.subheader('View Data')
-        st.write(customer_df.head(10))
+        st.write(customer_df.head(20))
 
     else:
         if selection == 'External data':
@@ -92,7 +92,7 @@ def get_data():
                 with st.spinner("Dataset loading..."):
                     time.sleep(3)
                 st.subheader('View Data')
-                st.write(customer_df2.head(10))
+                st.dataframe(customer_df2.head(20))
         
 
 if __name__ == "__main__":
